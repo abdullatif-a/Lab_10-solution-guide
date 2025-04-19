@@ -129,7 +129,7 @@ terraform {
 provider "azurerm" {
   features {}
 
-  subscription_id = "50cff209-0e41-4560-a131-5c873ec03be0"
+  subscription_id = "Your_ subscription_id"
 }
 ```
 
@@ -137,12 +137,12 @@ provider "azurerm" {
 
 ```hcl
 locals {
-  resource_group_name = "devops2-rg"
-  vnet_name           = "devops2-vnet"
+  resource_group_name = "devops1-rg"
+  vnet_name           = "devops1-vnet"
   location            = "West Europe"
 
   tags = {
-    bootcamp = "DevOps2"
+    bootcamp = "DevOps1"
   }
 
   address_space = ["10.0.0.0/16"]
