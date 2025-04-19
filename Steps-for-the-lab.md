@@ -80,7 +80,7 @@ git pull origin main --allow-unrelated-histories
 git push --set-upstream origin main
 ```
 It should look like this in your repository:
-![Image]([https://i.imgur.com/your-image-link.png](https://github.com/abdullatif-a/Lab_10-solution-guide/blob/main/github%20folders.jpeg))
+![Image](./images/github folders.jpeg)
 
 ---
 
