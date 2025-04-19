@@ -4,7 +4,8 @@
 Clone the GitHub Repository  
 
 Go to: [Terraform VNet Module Lab](https://github.com/Integrify-Finland/devops-terraform-lab-vnet-module.git)  
+  
+  Copy the repo URL and clone it:
 
-Copy the repo URL and clone it:
         '''git clone https://github.com/Integrify-Finland/devops-terraform-lab-vnet-module.git'''
 
