@@ -14,7 +14,7 @@ This lab teaches you how to modularize your Terraform code and reuse it across m
 | 💡 Clarity    | Your projects are easier to read and manage |
 | 📦 Portability| Your modules can be shared across teams or projects |
 | 🔐 Control    | You can version your modules and update them when ready |
-| 🧠 Experience | You learned a professional workflow used in real companies |
+| 🧠 Experience | You will learn a professional workflow used in real companies |
 
 ---
 
@@ -87,7 +87,7 @@ It should look like this in your repository:
 ---
 
 ### 3️⃣ Create a New Project and Add Submodule
-Open your code editor (VS Code) or user the terminal.  
+Open your code editor (VS Code) or use the terminal.  
 
 ```bash
 mkdir module_example
@@ -206,11 +206,8 @@ terraform apply
 ```
 
 ---
+Don't forget to take screenshots for your work submission, wou need:  
+screenshot showing terraform plan + terraform apply + VS Code folders/files structure  
 
-## ✅ Summary
-
-- You **modularized Terraform code** using Git submodules
-- You **published modules to a GitHub repo**
-- You **referenced those modules** in a new project using `source = "../path"`
-- This setup mimics **real-world DevOps workflows**
+  GoodLuck
 
