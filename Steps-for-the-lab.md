@@ -60,7 +60,7 @@ git add .
 git commit -m "Azure Modules - resource_group"
 
 # Link the remote repo (replace with your URL)
-git remote add origin https://github.com/your-username/azure_git_sub_modules.git
+git remote add origin URL
 
 # Push to GitHub
 git push --set-upstream origin main
@@ -83,12 +83,12 @@ git push --set-upstream origin main
 ---
 
 ### 3️⃣ Create a New Project and Add Submodule
-
+    # replace <YOUR_REPO_URL> with your repository URL
 ```bash
 mkdir module_example
 cd module_example
 git init
-git submodule add https://github.com/your-username/azure_git_sub_modules.git
+git submodule add <YOUR_REPO_URL>
 mkdir example01
 cd example01
 ```
