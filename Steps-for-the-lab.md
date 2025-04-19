@@ -87,6 +87,8 @@ It should look like this in your repository:
 ---
 
 ### 3️⃣ Create a New Project and Add Submodule
+Open your code editor (VS Code) or user the terminal.  
+
 ```bash
 mkdir module_example
 cd module_example  
@@ -98,8 +100,8 @@ git submodule add <YOUR_REPO_URL>
 mkdir example01
 cd example01
 ```
-
----
+should look like this  
+<pre lang="text"> ``` module_example/ │ ├── azure_git_sub_modules/ │ ├── azurerm_resource_group/ │ ├── azurerm_virtual_network/ │ └── azurerm_subnets/ │ └── example01/ ``` </pre> 
 
 ### 4️⃣ Create Terraform Files in `example01`
 
