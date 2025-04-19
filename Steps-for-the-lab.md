@@ -43,9 +43,10 @@ Copy the repo URL.
 
 #### Push the Azure Modules to GitHub
 
-In terminal:
+In terminal :
 
 ```bash
+#Navigate to the Repo you just cloned and go inside Azure folder
 cd path/to/Azure
 
 # Configure Git if you haven't
