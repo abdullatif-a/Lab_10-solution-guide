@@ -80,7 +80,7 @@ git pull origin main --allow-unrelated-histories
 git push --set-upstream origin main
 ```
 It should look like this in your repository:
-![Image](./images/github folders.jpeg)
+![Image](./images/github_folders.jpeg)
 
 ---
 
@@ -176,7 +176,7 @@ module "subnets" {
   address_prefixes    = each.value.address_space
 }
 ```
-
+VS Code folders/files structure should look like this ![VS_Code_folders_and_files_structure](./images/VS_Code_folders_and_files_structure.jpeg)
 ---
 
 ### 🚀 Provision Infrastructure
