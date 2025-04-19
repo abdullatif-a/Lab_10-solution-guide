@@ -83,12 +83,14 @@ git push --set-upstream origin main
 ---
 
 ### 3️⃣ Create a New Project and Add Submodule
-    # replace <YOUR_REPO_URL> with your repository URL
 ```bash
 mkdir module_example
-cd module_example
+cd module_example  
 git init
+
+# replace <YOUR_REPO_URL> with your repository URL
 git submodule add <YOUR_REPO_URL>
+
 mkdir example01
 cd example01
 ```
