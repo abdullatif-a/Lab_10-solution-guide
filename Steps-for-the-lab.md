@@ -100,7 +100,7 @@ git submodule add <YOUR_REPO_URL>
 mkdir example01
 cd example01
 ```
-should look like this  
+It should look like this:  
 ```
 module_example/
 │
