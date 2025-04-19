@@ -3,7 +3,6 @@
 
 This PDF guide walks you through the full process of publishing Terraform modules to GitHub and using them as Git submodules in other Terraform projects.
 
-📄 [Download the Guide](./docs/terraform_git_submodules_guide.pdf)
 
 ### 🔍 What’s Inside
 - Cloning and setting up the previous lab
