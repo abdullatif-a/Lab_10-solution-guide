@@ -60,8 +60,8 @@ git init
 git add .
 git commit -m "Azure Modules - resource_group"
 
-# Link the remote repo (replace with your URL)
-git remote add origin URL
+# Link the remote repo (replace <your-repo-url> with your repository URL)
+git remote add origin <your-repo-url>
 
 # Push to GitHub
 git push --set-upstream origin main
