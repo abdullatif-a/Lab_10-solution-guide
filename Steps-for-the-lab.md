@@ -92,7 +92,7 @@ mkdir module_example
 cd module_example  
 git init
 
-# replace <YOUR_REPO_URL> with your repository URL
+# replace <YOUR_REPO_URL> with your repository URL. this will download it to your folder. 
 git submodule add <YOUR_REPO_URL>
 
 mkdir example01
