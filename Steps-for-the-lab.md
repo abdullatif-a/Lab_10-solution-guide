@@ -101,7 +101,16 @@ mkdir example01
 cd example01
 ```
 should look like this  
-<pre lang="text"> ``` module_example/ │ ├── azure_git_sub_modules/ │ ├── azurerm_resource_group/ │ ├── azurerm_virtual_network/ │ └── azurerm_subnets/ │ └── example01/ ``` </pre> 
+```
+module_example/
+│
+├── azure_git_sub_modules/
+│   ├── azurerm_resource_group/
+│   ├── azurerm_virtual_network/
+│   └── azurerm_subnets/
+│
+└── example01/
+```
 
 ### 4️⃣ Create Terraform Files in `example01`
 
