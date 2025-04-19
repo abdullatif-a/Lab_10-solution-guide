@@ -193,21 +193,33 @@ VS Code folders/files structure should look like this
   
   ![VS_Code_folders_and_files_structure](./images/VS_Code_folders_and_files_structure.jpeg)
 ---
-
 ### 🚀 Provision Infrastructure
 
-Run the following Terraform commands:
+Once your configuration files are ready, it's time to provision your infrastructure on Azure using Terraform. Follow these steps in your terminal:
 
 ```bash
+# Format your code for consistency
 terraform fmt
+
+# Initialize the Terraform workspace.
+# This sets up the backend and downloads necessary providers.
 terraform init
+
+# Review the execution plan to ensure the resources to be created match your expectations.
 terraform plan
+
+# Apply the changes to create the resources in your Azure subscription.
+# You’ll be asked to confirm before applying.
 terraform apply
-```
+
+> ✅ **Don't forget to take screenshots for your submission!**
+
+You’ll need to include:
+
+- 📸 A screenshot showing the result of `terraform plan`
+- 📸 A screenshot showing the result of `terraform apply`
+- 📁 A screenshot showing your **VS Code folder/file structure**
 
 ---
-Don't forget to take screenshots for your work submission, wou need:  
-screenshot showing terraform plan + terraform apply + VS Code folders/files structure  
 
-  GoodLuck
-
+🎯 **Good luck, you got this!**
