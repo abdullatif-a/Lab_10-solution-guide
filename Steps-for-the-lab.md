@@ -22,7 +22,8 @@ This lab teaches you how to modularize your Terraform code and reuse it across m
 
 ### 1️⃣ Download the Previous Lab
 
-Clone the previous lab repo that contains the `Azure` folder.
+Clone the previous lab repo that contains the `Azure` folder.  
+You are only downloading it so you can push it into your repository.  
 
 ```bash
 git clone https://github.com/Integrify-Finland/devops-terraform-lab-vnet-module.git
