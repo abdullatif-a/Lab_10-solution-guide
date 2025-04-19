@@ -211,6 +211,7 @@ terraform plan
 # Apply the changes to create the resources in your Azure subscription.
 # You’ll be asked to confirm before applying.
 terraform apply
+```
 
 > ✅ **Don't forget to take screenshots for your submission!**
 
